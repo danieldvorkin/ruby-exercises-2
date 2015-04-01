@@ -13,10 +13,11 @@ grocery_list << "rice"
 
 printMethod(grocery_list)
 
-grocery_list << "Bananas"
+grocery_list << "bananas"
 
 grocery_list.delete("salmon")
 
+grocery_list.sort!
 printMethod(grocery_list)
 
 grocery_list << "salmon"
